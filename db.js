@@ -96,5 +96,5 @@ export const signs = [
                   description: "lorem ipsum",      
                   image: "/images/pisces.jpg"
                 }
-  ]
+  
 ]
