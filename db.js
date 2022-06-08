@@ -92,7 +92,7 @@ export const signs = [
                   id: 12,
                   title: "Pisces",
                   date: "February 19 - March 20",
-                element: "Water",
+                  element: "Waterr",
                   description: "lorem ipsum",      
                   image: "/images/pisces.jpg"
                 }
