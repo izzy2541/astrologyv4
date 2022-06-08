@@ -1,0 +1,8 @@
+.container {
+  margin: 3rem auto;
+  max-width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  gap: 1rem;
+  justify-content: center;
+}

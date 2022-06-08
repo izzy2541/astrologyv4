@@ -1,0 +1,68 @@
+@use '../../styles/sass/abstracts/' as *;
+
+.item:hover {
+  transform: scale(0.95); 
+  transition: all 200ms ease-in-out; 
+}
+
+.item {
+  height:fit-content;
+}
+
+
+.image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 4px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  background-color: white;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.content {
+  padding: 0.4rem;
+  margin: 0rem;
+  text-align: center;
+  height: fit-content;
+  background-color: white;
+
+  h3 {
+    font-size: 1.4rem;
+    color: #2c292b;
+    background-color: white;
+    font-family: $secondary-font;
+    margin: 8px;
+  }
+
+  p {
+    background-color: white;
+  }
+}
+
+
+
+.actions {
+  padding: 1rem;
+  text-align: center;
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+
+    &:hover, &:active {
+      color: $main-white;
+      background-color: $brand-color;
+    }
+  }
+}
