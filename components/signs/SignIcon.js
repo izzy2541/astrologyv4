@@ -23,7 +23,7 @@ function SignIcon(props) {
                 </div>
                 <div className={styles.content}>
                     <h3>{props.title}</h3>
-                    <p>{props.date}</p>
+                    <p style={{color: "black"}}>{props.date}</p>
                 </div>
             </Card>
         </div>
