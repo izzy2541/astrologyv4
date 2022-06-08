@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Popup from '../components/layout/Popup'
 
 
-function Home() {
+function Home(props) {
     const [timePopup, setTimePopup] = useState(false);
 
     useEffect(() => {
@@ -17,7 +17,7 @@ function Home() {
         <main>
         <div>
             <div className="WelcomeText">Choose Your Zodiac Sign</div>
-            {/* <SignList loadedSigns={props.signs}  /> */}
+            <SignList loadedSigns={props.signs}  />
 
         </div>
         <Popup trigger={timePopup} setTrigger={setTimePopup}>
@@ -27,15 +27,15 @@ function Home() {
     );
 }
 
-// export const getStaticProps = async () => {
-//     const response = await axios.get(`${process.env.SERVER_NAME}/signs`)
-//     const data = await response.data;
+export const getStaticProps = async () => {
+    const response = await axios.get(`${process.env.SERVER_NAME}/signs`)
+    const data = await response.data;
 
-//     return{
-//         props: {
-//             signs: data
-//         },
-//     };
-//}
+    return{
+        props: {
+            signs: data
+        },
+    };
+}
 
 export default Home;

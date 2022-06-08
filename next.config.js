@@ -14,7 +14,7 @@ module.exports = (phase) => {
   const env = {
     SERVER_NAME: (() => {
       if (isDev) return 'http://localhost:3000/api'
-      if (isProd) return 'https://zodiac-site.vercel.app'
+      if (isProd) return 'https://myzodiac.vercel.app/api'
     })(),
     GOOGLE_ANALYTICS_ID: 'INSERT-LATER!!!',
   }
