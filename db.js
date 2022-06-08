@@ -47,20 +47,54 @@ export const signs = [
                 description: "lorem ipsum",      
                 image: "/images/virgozodiac.jpg"
               },
-              {
-                id: 7,
-                title: "Libra",
-                date: "September 23 - October 22",
-                element: "Air",
-                description: "lorem ipsum",      
-                image: "/images/libra.jpg"
-              },
-              {
-                id: 8,
-                title: "Scorpio",
-                date: "October 23 - November 21",
+          
+                {
+                  id: 7,
+                  title: "Libra",
+                  date: "September 23 - October 22",
+                  element: "Air",
+                  description: "lorem ipsum",      
+                  image: "/images/libra.jpg"
+                },
+                {
+                  id: 8,
+                  title: "Scorpio",
+                  date: "October 23 - November 21",
+                  element: "Water",
+                  description: "lorem ipsum",      
+                  image: "/images/scorpiozodiac.jpg"
+                },
+                {
+                  id: 9,
+                  title: "Sagittarius",
+                  date: "November 22 - December 21",
+                  element: "Fire",
+                  description: "lorem ipsum",      
+                  image: "/images/sagittariuszodiac.jpg"
+                },
+                {
+                  id: 10,
+                  title: "Capricorn",
+                  date: "December 22 - January 19",
+                  element: "Earth",
+                  description: "lorem ipsum",      
+                  image: "/images/capricornzodiac.jpg"
+                },
+                {
+                  id: 11,
+                  title: "Aquarius",
+                  date: "January 20 - Febuary 18",
+                  element: "Water",
+                  description: "lorem ipsum",      
+                  image: "/images/aquariuszodiac.jpg"
+                },
+                {
+                  id: 12,
+                  title: "Pisces",
+                  date: "February 19 - March 20",
                 element: "Water",
-                description: "lorem ipsum",      
-                image: "/images/scorpiozodiac.jpg"
-              }
+                  description: "lorem ipsum",      
+                  image: "/images/pisces.jpg"
+                }
+  ]
 ]
