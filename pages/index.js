@@ -2,6 +2,8 @@ import axios from 'axios'
 import SignList from '../components/signs/SignList'
 import { useState, useEffect } from 'react';
 import Popup from '../components/layout/Popup'
+import { Fragment } from 'react';
+import Head from "next/head";
 
 
 function Home(props) {
@@ -14,16 +16,26 @@ function Home(props) {
 }, []);
 
     return(
-        <main>
-        <div>
-            <div className="WelcomeText">Choose Your Zodiac Sign</div>
-            <SignList loadedSigns={props.signs}  />
+        <Fragment>
+            <Head>
+                <title> Astrology.Com</title>
+                <meta
+                    name="description"
+                    description="find out more about your zodiac sign"
+                />
 
-        </div>
-        <Popup trigger={timePopup} setTrigger={setTimePopup}>
+            </Head>
+                <main>
+                    <div>
+                        <div className="WelcomeText">Choose Your Zodiac Sign</div>
+                        <SignList loadedSigns={props.signs}  />
 
-        </Popup>
-        </main>
+                    </div>
+                    <Popup trigger={timePopup} setTrigger={setTimePopup}>
+
+                    </Popup>
+                </main>
+        </Fragment>
     );
 }
 

@@ -16,7 +16,7 @@ module.exports = (phase) => {
       if (isDev) return 'http://localhost:3000/api'
       if (isProd) return 'https://myzodiac.vercel.app/api'
     })(),
-    GOOGLE_ANALYTICS_ID: 'INSERT-LATER!!!',
+    GOOGLE_ANALYTICS_ID: 'G-N6PP7TSZ1F',
   }
 
   // Next.config is an object
