@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/404": "pages/404.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/privacy": "pages/privacy.html",
+  "/contact": "pages/contact.html",
+  "/api/signs": "pages/api/signs.js",
+  "/about": "pages/about.html",
+  "/[signTitle]": "pages/[signTitle].js",
   "/": "pages/index.js",
-  "/api/signs": "pages/api/signs.js"
+  "/_document": "pages/_document.js"
 }
