@@ -22,6 +22,7 @@ function Home(props) {
                 <meta
                     name="description"
                     description="find out more about your zodiac sign"
+                    lang="en" 
                 />
 
             </Head>
