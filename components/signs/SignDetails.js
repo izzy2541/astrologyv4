@@ -1,15 +1,19 @@
 import Card from "../ui/Card";
 import Link from "next/link";
 import styles from './SignDetails.module.scss';
+import Image from 'next/image';
 
 function SignDetails(props) {
   return (
     <div className={styles.border}>
       <Card>
         <div className={styles.detail}>
-          <img 
+          <Image
             src={props.image} 
             alt={props.title}
+            width={500}
+            height={500}
+            layout="responsive"
           />
           <h1>{props.title}</h1>
           <p>{props.dates}</p>

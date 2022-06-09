@@ -1,95 +1,35 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 234;
-exports.ids = [234];
+exports.id = "pages/api/signs";
+exports.ids = ["pages/api/signs"];
 exports.modules = {
 
-/***/ 8080:
+/***/ "(api)/./db.js":
+/*!***************!*\
+  !*** ./db.js ***!
+  \***************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"signs\": () => (/* binding */ signs)\n/* harmony export */ });\nconst signs = [\n    {\n        id: 1,\n        title: \"Aries\",\n        date: \"March 21 - April 19\",\n        element: \"Fire\",\n        description: \"lorem ipsum\",\n        image: \"/images/aries.png\"\n    },\n    {\n        id: 2,\n        title: \"Taurus\",\n        date: \"April 20 - May 20\",\n        element: \"Earth\",\n        description: \"lorem ipsum\",\n        image: \"/images/taurus.jpg\"\n    },\n    {\n        id: 3,\n        title: \"Gemini\",\n        date: \"May 21 - June 20\",\n        element: \"Air\",\n        description: \"lorem ipsum\",\n        image: \"/images/gemini.png\"\n    },\n    {\n        id: 4,\n        title: \"Cancer\",\n        date: \"June 21 - July 22\",\n        element: \"Water\",\n        description: \"lorem ipsum\",\n        image: \"/images/cancerzodiac.jpg\"\n    },\n    {\n        id: 5,\n        title: \"Leo\",\n        date: \"July 23 - August 22\",\n        element: \"Fire\",\n        description: \"lorem ipsum\",\n        image: \"/images/leozodiac.jpg\"\n    },\n    {\n        id: 6,\n        title: \"Virgo\",\n        date: \"August 23 - September 22\",\n        element: \"Earth\",\n        description: \"lorem ipsum\",\n        image: \"/images/virgozodiac.jpg\"\n    },\n    {\n        id: 7,\n        title: \"Libra\",\n        date: \"September 23 - October 22\",\n        element: \"Air\",\n        description: \"lorem ipsum\",\n        image: \"/images/libra.jpg\"\n    },\n    {\n        id: 8,\n        title: \"Scorpio\",\n        date: \"October 23 - November 21\",\n        element: \"Water\",\n        description: \"lorem ipsum\",\n        image: \"/images/scorpiozodiac.jpg\"\n    },\n    {\n        id: 9,\n        title: \"Sagittarius\",\n        date: \"November 22 - December 21\",\n        element: \"Fire\",\n        description: \"lorem ipsum\",\n        image: \"/images/sagittariuszodiac.jpg\"\n    },\n    {\n        id: 10,\n        title: \"Capricorn\",\n        date: \"December 22 - January 19\",\n        element: \"Earth\",\n        description: \"lorem ipsum\",\n        image: \"/images/capricornzodiac.jpg\"\n    },\n    {\n        id: 11,\n        title: \"Aquarius\",\n        date: \"January 20 - Febuary 18\",\n        element: \"Water\",\n        description: \"lorem ipsum\",\n        image: \"/images/aquariuszodiac.jpg\"\n    },\n    {\n        id: 12,\n        title: \"Pisces\",\n        date: \"February 19 - March 20\",\n        element: \"Waterr\",\n        description: \"lorem ipsum\",\n        image: \"/images/pisces.jpg\"\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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NUI7Q0FFaEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc3Ryb2xvZ3kvLi9kYi5qcz81NjY1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBzaWducyA9IFtcbiAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIGlkIDogMSxcbiAgICAgICAgICAgICAgICB0aXRsZTogXCJBcmllc1wiLFxuICAgICAgICAgICAgICAgIGRhdGU6IFwiTWFyY2ggMjEgLSBBcHJpbCAxOVwiLFxuICAgICAgICAgICAgICAgIGVsZW1lbnQ6IFwiRmlyZVwiLFxuICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBcImxvcmVtIGlwc3VtXCIsXG4gICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9hcmllcy5wbmdcIlxuICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgaWQ6IDIsXG4gICAgICAgICAgICAgICAgdGl0bGU6IFwiVGF1cnVzXCIsXG4gICAgICAgICAgICAgICAgZGF0ZTogXCJBcHJpbCAyMCAtIE1heSAyMFwiLFxuICAgICAgICAgICAgICAgIGVsZW1lbnQ6IFwiRWFydGhcIixcbiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvdGF1cnVzLmpwZ1wiXG4gICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBpZDogMyxcbiAgICAgICAgICAgICAgICB0aXRsZTogXCJHZW1pbmlcIixcbiAgICAgICAgICAgICAgICBkYXRlOiBcIk1heSAyMSAtIEp1bmUgMjBcIixcbiAgICAgICAgICAgICAgICBlbGVtZW50OiBcIkFpclwiLFxuICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBcImxvcmVtIGlwc3VtXCIsICAgICAgXG4gICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9nZW1pbmkucG5nXCJcbiAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIGlkOiA0LFxuICAgICAgICAgICAgICAgIHRpdGxlOiBcIkNhbmNlclwiLFxuICAgICAgICAgICAgICAgIGRhdGU6IFwiSnVuZSAyMSAtIEp1bHkgMjJcIixcbiAgICAgICAgICAgICAgICBlbGVtZW50OiBcIldhdGVyXCIsXG4gICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IFwibG9yZW0gaXBzdW1cIiwgICAgICBcbiAgICAgICAgICAgICAgICBpbWFnZTogXCIvaW1hZ2VzL2NhbmNlcnpvZGlhYy5qcGdcIlxuICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgaWQ6IDUsXG4gICAgICAgICAgICAgICAgdGl0bGU6IFwiTGVvXCIsXG4gICAgICAgICAgICAgICAgZGF0ZTogXCJKdWx5IDIzIC0gQXVndXN0IDIyXCIsXG4gICAgICAgICAgICAgICAgZWxlbWVudDogXCJGaXJlXCIsXG4gICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IFwibG9yZW0gaXBzdW1cIiwgICAgICBcbiAgICAgICAgICAgICAgICBpbWFnZTogXCIvaW1hZ2VzL2xlb3pvZGlhYy5qcGdcIlxuICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgaWQ6IDYsXG4gICAgICAgICAgICAgICAgdGl0bGU6IFwiVmlyZ29cIixcbiAgICAgICAgICAgICAgICBkYXRlOiBcIkF1Z3VzdCAyMyAtIFNlcHRlbWJlciAyMlwiLFxuICAgICAgICAgICAgICAgIGVsZW1lbnQ6IFwiRWFydGhcIixcbiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvdmlyZ296b2RpYWMuanBnXCJcbiAgICAgICAgICAgICAgfSxcbiAgICAgICAgICBcbiAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICBpZDogNyxcbiAgICAgICAgICAgICAgICAgIHRpdGxlOiBcIkxpYnJhXCIsXG4gICAgICAgICAgICAgICAgICBkYXRlOiBcIlNlcHRlbWJlciAyMyAtIE9jdG9iZXIgMjJcIixcbiAgICAgICAgICAgICAgICAgIGVsZW1lbnQ6IFwiQWlyXCIsXG4gICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9saWJyYS5qcGdcIlxuICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgaWQ6IDgsXG4gICAgICAgICAgICAgICAgICB0aXRsZTogXCJTY29ycGlvXCIsXG4gICAgICAgICAgICAgICAgICBkYXRlOiBcIk9jdG9iZXIgMjMgLSBOb3ZlbWJlciAyMVwiLFxuICAgICAgICAgICAgICAgICAgZWxlbWVudDogXCJXYXRlclwiLFxuICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IFwibG9yZW0gaXBzdW1cIiwgICAgICBcbiAgICAgICAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvc2NvcnBpb3pvZGlhYy5qcGdcIlxuICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgaWQ6IDksXG4gICAgICAgICAgICAgICAgICB0aXRsZTogXCJTYWdpdHRhcml1c1wiLFxuICAgICAgICAgICAgICAgICAgZGF0ZTogXCJOb3ZlbWJlciAyMiAtIERlY2VtYmVyIDIxXCIsXG4gICAgICAgICAgICAgICAgICBlbGVtZW50OiBcIkZpcmVcIixcbiAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBcImxvcmVtIGlwc3VtXCIsICAgICAgXG4gICAgICAgICAgICAgICAgICBpbWFnZTogXCIvaW1hZ2VzL3NhZ2l0dGFyaXVzem9kaWFjLmpwZ1wiXG4gICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICBpZDogMTAsXG4gICAgICAgICAgICAgICAgICB0aXRsZTogXCJDYXByaWNvcm5cIixcbiAgICAgICAgICAgICAgICAgIGRhdGU6IFwiRGVjZW1iZXIgMjIgLSBKYW51YXJ5IDE5XCIsXG4gICAgICAgICAgICAgICAgICBlbGVtZW50OiBcIkVhcnRoXCIsXG4gICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9jYXByaWNvcm56b2RpYWMuanBnXCJcbiAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgIGlkOiAxMSxcbiAgICAgICAgICAgICAgICAgIHRpdGxlOiBcIkFxdWFyaXVzXCIsXG4gICAgICAgICAgICAgICAgICBkYXRlOiBcIkphbnVhcnkgMjAgLSBGZWJ1YXJ5IDE4XCIsXG4gICAgICAgICAgICAgICAgICBlbGVtZW50OiBcIldhdGVyXCIsXG4gICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9hcXVhcml1c3pvZGlhYy5qcGdcIlxuICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgaWQ6IDEyLFxuICAgICAgICAgICAgICAgICAgdGl0bGU6IFwiUGlzY2VzXCIsXG4gICAgICAgICAgICAgICAgICBkYXRlOiBcIkZlYnJ1YXJ5IDE5IC0gTWFyY2ggMjBcIixcbiAgICAgICAgICAgICAgICAgIGVsZW1lbnQ6IFwiV2F0ZXJyXCIsXG4gICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJsb3JlbSBpcHN1bVwiLCAgICAgIFxuICAgICAgICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9waXNjZXMuanBnXCJcbiAgICAgICAgICAgICAgICB9XG4gIFxuXSJdLCJuYW1lcyI6WyJzaWducyIsImlkIiwidGl0bGUiLCJkYXRlIiwiZWxlbWVudCIsImRlc2NyaXB0aW9uIiwiaW1hZ2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./db.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ handler)
-});
+/***/ }),
 
-;// CONCATENATED MODULE: ./db.js
-const signs = [
-    {
-        id: 1,
-        title: "Aries",
-        date: "March 21 - April 19",
-        element: "Fire",
-        description: "lorem ipsum",
-        image: "/images/aries.png"
-    },
-    {
-        id: 2,
-        title: "Taurus",
-        date: "April 20 - May 20",
-        element: "Earth",
-        description: "lorem ipsum",
-        image: "/images/taurus.jpg"
-    },
-    {
-        id: 3,
-        title: "Gemini",
-        date: "May 21 - June 20",
-        element: "Air",
-        description: "lorem ipsum",
-        image: "/images/gemini.png"
-    },
-    {
-        id: 4,
-        title: "Cancer",
-        date: "June 21 - July 22",
-        element: "Water",
-        description: "lorem ipsum",
-        image: "/images/cancerzodiac.jpg"
-    },
-    {
-        id: 5,
-        title: "Leo",
-        date: "July 23 - August 22",
-        element: "Fire",
-        description: "lorem ipsum",
-        image: "/images/leozodiac.jpg"
-    },
-    {
-        id: 6,
-        title: "Virgo",
-        date: "August 23 - September 22",
-        element: "Earth",
-        description: "lorem ipsum",
-        image: "/images/virgozodiac.jpg"
-    },
-    {
-        id: 7,
-        title: "Libra",
-        date: "September 23 - October 22",
-        element: "Air",
-        description: "lorem ipsum",
-        image: "/images/libra.jpg"
-    },
-    {
-        id: 8,
-        title: "Scorpio",
-        date: "October 23 - November 21",
-        element: "Water",
-        description: "lorem ipsum",
-        image: "/images/scorpiozodiac.jpg"
-    }
-];
+/***/ "(api)/./pages/api/signs.js":
+/*!****************************!*\
+  !*** ./pages/api/signs.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-;// CONCATENATED MODULE: ./pages/api/signs.js
-
-function handler(req, res) {
-    res.status(200).json(signs);
-};
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _db__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../db */ \"(api)/./db.js\");\n\nfunction handler(req, res) {\n    res.status(200).json(_db__WEBPACK_IMPORTED_MODULE_0__.signs);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvc2lnbnMuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBaUM7QUFFbEIsU0FBU0MsT0FBTyxDQUFDQyxHQUFHLEVBQUVDLEdBQUcsRUFBRTtJQUN4Q0EsR0FBRyxDQUFDQyxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUNDLElBQUksQ0FBQ0wsc0NBQUssQ0FBQztDQUM1QiIsInNvdXJjZXMiOlsid2VicGFjazovL2FzdHJvbG9neS8uL3BhZ2VzL2FwaS9zaWducy5qcz81Zjg2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHNpZ25zIH0gZnJvbSAnLi4vLi4vZGInO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7XG4gIHJlcy5zdGF0dXMoMjAwKS5qc29uKHNpZ25zKVxufVxuIl0sIm5hbWVzIjpbInNpZ25zIiwiaGFuZGxlciIsInJlcSIsInJlcyIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/signs.js\n");
 
 /***/ })
 
@@ -100,7 +40,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(8080));
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/signs.js"));
 module.exports = __webpack_exports__;
 
 })();

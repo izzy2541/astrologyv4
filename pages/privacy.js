@@ -6,7 +6,8 @@ function Privacy() {
                 Privacy
             </div>
             <div className = "smallText">
-                <p> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> At Astrology.Com we adhere to the privacy principles outlined in The Privacy Act. To find out more,
+                    please click <a target="_blank" href= "https://www.oaic.gov.au/privacy/australian-privacy-principles"><u>here.</u></a></p>
             </div>        
         </div>
     
