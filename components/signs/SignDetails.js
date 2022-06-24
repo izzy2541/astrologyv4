@@ -16,8 +16,8 @@ function SignDetails(props) {
             layout="responsive"
           />
           <h1>{props.title}</h1>
-          <p>{props.dates}</p>
-          <p>{props.element}</p>
+          <p>Date: {props.dates}</p>
+          <p>Element: {props.element}</p>
           <p>{props.description}</p>
         </div>
         <div className={styles.actions}>

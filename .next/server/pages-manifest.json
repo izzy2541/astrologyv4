@@ -3,8 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/signs": "pages/api/signs.js",
-  "/about": "pages/about.js",
-  "/privacy": "pages/privacy.js",
-  "/contact": "pages/contact.js"
+  "/api/signs": "pages/api/signs.js"
 }
