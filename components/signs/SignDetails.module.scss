@@ -55,3 +55,8 @@ a{
     }
   }
 }
+
+@media (max-width: 799px) {
+  .border { max-width: 75% }
+  
+}
