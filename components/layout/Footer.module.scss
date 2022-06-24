@@ -43,4 +43,8 @@
 }
 
 
-
+@media (max-width: 599px) {
+  .myFooter ul li { margin-left: 1rem; font-size: 10px}
+  .myFooter a { margin-left: 1rem; font-size: 10px}
+  
+}
