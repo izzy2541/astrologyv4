@@ -6,7 +6,12 @@ function Contact() {
                 Contact
             </div>
             <div className = "smallText">
-                <p> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Interested to know more about our company and what we do?<br></br>
+                    Have further questions about your zodiac sign?<br></br>
+                    Please email us at hello@astrology.com and we will be happy to provide more information.
+                    Have a nice day!
+
+                </p>
             </div>          
         </div>
     
