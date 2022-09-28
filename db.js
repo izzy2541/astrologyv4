@@ -4,7 +4,7 @@ export const signs = [
                 title: "Aries",
                 date: "March 21 - April 19",
                 element: "Fire",
-                description: "Aries loves to be number one, so it’s no surprise that these audacious rams are the first sign of the zodiac. Bold and ambitious, Aries dives headfirst into even the most challenging situations (which is appropriate, since the body part associated with Aries is the head). Like their fellow fire signs, Leo and Sagittarius, Aries is a passionate, motivated, and confident leader who builds community with their cheerful disposition and relentless determination. Uncomplicated and direct in their approach, they often get frustrated by exhaustive details and unnecessary nuances.",
+                description: "Aries loves to be number one, so its no surprise that these audacious rams are the first sign of the zodiac. Bold and ambitious, Aries dives headfirst into even the most challenging situations (which is appropriate, since the body part associated with Aries is the head). Like their fellow fire signs, Leo and Sagittarius, Aries is a passionate, motivated, and confident leader who builds community with their cheerful disposition and relentless determination. Uncomplicated and direct in their approach, they often get frustrated by exhaustive details and unnecessary nuances.",
                 image: "/images/aries.png"
               },
               {
@@ -83,7 +83,7 @@ export const signs = [
                 {
                   id: 11,
                   title: "Aquarius",
-                  date: "January 20 - Febuary 18",
+                  date: "January 20 - February 18",
                   element: "Water",
                   description: "As you can imagine, I encounter a lot of misconceptions as a professional astrologer — not just regarding my career as a stargazer, but also relating to the technical aspects of astrology. One of the most ubiquitous, albeit innocuous, errors is that Aquarius is a water sign. I could certainly understand the confusion here — especially with \"aqua\" as the prefix — but once you get to know this zodiac sign, it becomes strikingly clear that Aquarius is an air sign. As the eleventh and penultimate sign of the zodiac, Aquarius is actually the final air sign, which means it deals with air-related concepts (we'll get more into that momentarily) from a macro-perspective. Of all the zodiac signs, Aquarius is undoubtedly the most innovative, progressive, rebellious, and humanitarian. And while Aquarius can often be found planning a revolution or proudly flaunting their funky fashion sensibility, they also have an often overlooked sensitive side that requires appreciation, support, and love.",      
                   image: "/images/aquariuszodiac.jpg"
@@ -92,7 +92,7 @@ export const signs = [
                   id: 12,
                   title: "Pisces",
                   date: "February 19 - March 20",
-                  element: "Waterr",
+                  element: "Water",
                   description: "Pisces, a water sign, is the last constellation of the zodiac. It's symbolized by two fish swimming in opposite directions, representing the constant division of Pisces's attention between fantasy and reality. As the final sign, Pisces has absorbed every lesson — the joys and the pains, the hopes and the fears — learned by all of the other signs. This makes these fish the most psychic, empathetic, and compassionate creatures of the astrological wheel. With such immense sensitivity, Pisces can easily become swallowed by emotions and must remember to stay grounded in the material realm (appropriately, Pisces rules the feet).",      
                   image: "/images/pisces.jpg"
                 }
